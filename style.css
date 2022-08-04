@@ -1,0 +1,111 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp4312580.jpg");
+  font-family: monospace;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#play {
+  background-color: rgb(233, 241, 19);
+  color: red;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+  border-style: dashed;
+}
+#reset {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  align-items: center;
+  background-color: rgb(7, 60, 10);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  font-size: medium;
+  border-style: double;
+}
+#attack {
+  background-color: rgba(19, 167, 241, 0.456);
+  color: red;
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  font-size: larger;
+  border-style: double;
+}
+#heal {
+  background-color: rgba(52, 19, 241, 0.586);
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: small;
+  border-style: double;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#p1 {
+  width: 125px;
+  height: 200px;
+}
+
+.p1Choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#p1Health {
+  font-size: 50px;
+}
+
+#p2 {
+  width: 200px;
+  height: 200px;
+}
+
+.p2Choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#p2Health {
+  font-size: 50px;
+}
+
+#result {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+}
+#title {
+  margin-top: 100px;
+  color: rgb(255, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
